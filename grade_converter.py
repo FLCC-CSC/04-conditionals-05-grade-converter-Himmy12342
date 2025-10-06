@@ -1,6 +1,6 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
+# NAME: Hayden
 # DATE: 
 # BRIEF DESCRIPTION:  
 
@@ -16,22 +16,20 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 print('===== Grade Converter =====')
+grade = int(input("Enter a numerical grade (1-100): "))
 
-percent = int(input('Enter a numerical grade (1-100): '))
-
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
+if grade > 100:
+    print("A+")
+elif grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 65:
+    print("D")
 else:
-    print('F')
-
+    print("F")
 ########### END YER CODE ABOVE THIS LINE ###########
 
     
