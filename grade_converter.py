@@ -20,6 +20,12 @@ grade = int(input("Enter a numerical grade (1-100): "))
 
 if grade > 100:
     print("A+")
+elif grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
 elif grade >= 65:
     print("D")
 else:
